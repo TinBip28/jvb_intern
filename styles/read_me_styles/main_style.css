@@ -1,0 +1,82 @@
+.small-text {
+    /* Small text style = 20px */
+    font-size: 25px;
+}
+
+
+.title-text {
+    font-size: 160px;
+    font-weight: bold;
+}
+
+.main-container {
+    padding: 40px 80px;
+    max-width: 55%;
+    text-align: justify;
+}
+
+.block-container {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.block-container:hover {
+    scale: 1.05;
+    transition: all 0.8s ease-in-out;
+}
+
+.text-medium {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.line-note {
+    position: relative;
+    padding-left: 25px;
+    /* Tạo khoảng cách cho thanh dọc */
+}
+
+.line-note::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /* Đặt ở giữa theo chiều dọc */
+    transform: translateY(-50%);
+    /* Căn chỉnh chính xác vào giữa */
+    width: 5px;
+    height: 100%;
+    /* Chiều cao bằng 1 dòng chữ */
+    background-color: #000000;
+}
+
+.font-sf-pro {
+    font-family: 'SF Pro', sans-serif;
+    src: url('/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF') format('openType');
+}
+
+.font-new-york {
+    font-family: 'New York ExtraLarge', serif;
+    src: url('/fonts/new-york-extra-large/NewYorkExtraLargeRegular.otf') format('openType');
+}
+
+.font-playfair-display {
+    font-family: "Playfair Display", serif;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.text-medium-bigger {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: rgba(255, 217, 0, 1);
+    height: auto;
+    width: 100%;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
